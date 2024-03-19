@@ -18,7 +18,7 @@
 ### Links
 
 - Solution URL: https://github.com/HediElOuni/Manage
-- Live Site URL: 
+- Live Site URL: https://hedielouni.github.io/Manage/
 
 ## My process
 
