@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <title>Manage landing page | Frontend Mentor</title>
+</head>
+<body>
+  <header>
+    <div class="h-cont">
+      <img src="./images/logo.svg">
+      <nav class="h-nav">
+        <a href="#">Pricing</a>
+        <a href="#">Product</a>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Community</a>
+      </nav>
+      <button class="btn">Get Started</button>
+      <div class="nav-btn" onclick="toggleNav()">☰</div>
+    </div>
+  </header>
+  <main>
+    <section class="s1">
+      <div class="s1-cont">
+        <h1>Bring everyone together to build better products.</h1>
+        <p>Manage makes it simple for software teams to plan day-to-day
+        tasks while keeping the larger team goals in view.</p>
+        <button class="btn">Get Started</button>
+      </div>
+      <img src="./images/illustration-intro.svg">
+    </section>
+    <section class="s2">
+      <div class="s2-p1">
+        <h2>What’s different about Manage?</h2>
+        <p>Manage provides all the functionality your team needs, without
+        the complexity. Our software is tailor-made for modern digital
+        product teams.</p>
+      </div>
+      <div class="s2-p2">
+        <div class="ftr">
+          <div class="bg-clr"></div>
+          <div class="nb">01</div>
+          <div class="ftr-c">
+            <h4>Track company-wide progress</h4>
+            <p>See how your day-to-day tasks fit into the wider vision. Go from
+              tracking progress at the milestone level all the way done to the
+              smallest of details. Never lose sight of the bigger picture again.</p>
+          </div>
+        </div>
+        <div class="ftr">
+          <div class="bg-clr"></div>
+          <div class="nb">02</div>
+          <div class="ftr-c">
+            <h4>Advanced built-in reports</h4>
+            <p>Set internal delivery estimates and track progress toward company
+              goals. Our customisable dashboard helps you build out the reports
+              you need to keep key stakeholders informed.</p>
+          </div>
+        </div>
+        <div class="ftr">
+          <div class="bg-clr"></div>
+          <div class="nb">03</div>
+          <div class="ftr-c">
+            <h4>Everything you need in one place</h4>
+            <p>Stop jumping from one service to another to communicate, store files,
+              track tasks and share documents. Manage offers an all-in-one team
+              productivity solution.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="s3">
+      <h2>What they’ve said</h2>
+      <div class="tstms-cont">
+        <div class="tstms">
+          <div class="tstm">
+            <img src="./images/avatar-anisha.png" id="photo1">
+            <h4>Anisha Li</h4>
+            <p>“Manage has supercharged our team’s workflow. The ability to maintain
+              visibility on larger milestones at all times keeps everyone motivated.”</p>
+          </div>
+          <div class="tstm">
+            <img src="./images/avatar-ali.png" id="photo2">
+            <h4>Ali Bravo</h4>
+            <p>“We have been able to cancel so many other subscriptions since using
+              Manage. There is no more cross-channel confusion and everyone is much
+              more focused.”</p>
+          </div>
+          <div class="tstm">
+            <img src="./images/avatar-richard.png" id="photo3">
+            <h4>Richard Watts</h4>
+            <p>“Manage allows us to provide structure and process. It keeps us organized
+              and focused. I can’t stop recommending them to everyone I talk to!”</p>
+          </div>
+          <div class="tstm">
+            <img src="./images/avatar-shanai.png" id="photo4">
+            <h4>Richard Watts</h4>
+            <p>“Their software allows us to track, manage and collaborate on our projects
+              from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+          </div>
+        </div>
+      </div>
+      <div class="dots">
+        <div class="dot" id="dot1"></div>
+        <div class="dot" id="dot2"></div>
+        <div class="dot" id="dot3"></div>
+        <div class="dot" id="dot4"></div>
+      </div>
+      <div class="btn-c">
+        <button class="btn">Get Started</button>
+      </div>
+    </section>
+    <section class="s4">
+      <div>Simplify how your team works today.</div>
+      <button class="btn">Get Started</button>
+    </section>
+  </main>
+  <footer>
+    <div class="ftr-fp">
+      <img src="./images/logo-w.svg">
+      <nav class="social-media">
+        <a href="#">
+          <img src="./images/icon-facebook-i.svg">
+          <img src="./images/icon-facebook-h.svg">
+        </a>
+        <a href="#">
+          <img src="./images/icon-youtube-i.svg">
+          <img src="./images/icon-youtube-h.svg">
+        </a>
+        <a href="#">
+          <img src="./images/icon-twitter-i.svg">
+          <img src="./images/icon-twitter-h.svg">
+        </a>
+        <a href="#">
+          <img src="./images/icon-pinterest-i.svg">
+          <img src="./images/icon-pinterest-h.svg">
+        </a>
+        <a href="#">
+          <img src="./images/icon-instagram-i.svg">
+          <img src="./images/icon-instagram-h.svg">
+        </a>
+      </nav>
+    </div>
+    <div class="f-navs">
+      <nav class="f-nav">
+        <a href="#">Home</a>
+        <a href="#">Pricing</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+      </nav>
+      <nav class="f-nav">
+        <a href="#">Careers</a>
+        <a href="#">Community</a>
+        <a href="#">Privacy Policy</a>
+      </nav>
+    </div>
+    <div class="form-cont">
+      <form>
+        <input class="email" type="text" placeholder="Updates in your inbox...">
+        <input type="submit" class="btn" value="Go" onclick="return validateForm(event)">
+      </form>
+      <div class="invalid">Please insert a valid email</div>
+    </div>
+    <div class="CR">Copyright 2020. All Rights Reserved</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
