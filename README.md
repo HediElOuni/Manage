@@ -18,7 +18,7 @@
 ### Links
 
 - Solution URL: https://github.com/HediElOuni/Manage
-- Live Site URL: https://hedielouni.github.io/Manage/
+- Live Site URL: https://manage-heo.netlify.app
 
 ## My process
 
